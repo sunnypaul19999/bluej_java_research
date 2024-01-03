@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=OverlaodOverride
+comment1.params=a
+comment1.target=Bx\ meth(int)
+comment2.params=a
+comment2.target=Ax\ func(int)
+comment3.params=a
+comment3.target=Ax\ func(Ax)
+comment4.params=
+comment4.target=void\ o1()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
