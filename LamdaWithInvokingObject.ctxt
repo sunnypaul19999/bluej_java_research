@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=ArrLambdaRef
-comment1.params=n
-comment1.target=MyClass[]\ apply(int)
+comment0.target=LamdaWithInvokingObject
+comment1.params=a
+comment1.target=int\ call(A)
 comment2.params=args
 comment2.target=void\ main(java.lang.String[])
 numComments=3
