@@ -37,9 +37,16 @@ class Bx extends Ax {
         return new Ax();
     }
     
+    public Bx func(Ax a){
+
+        System.out.println("overriden-> Ax:public Ax func(Ax a)");
+
+        return new Bx();
+    }
+    
     public Bx func(Bx a){
 
-        System.out.println("public Bx func(Ax a)");
+        System.out.println("overloaded: public Bx func(Ax a)");
 
         return new Bx();
     }
@@ -51,7 +58,7 @@ class Bx extends Ax {
     }
 
     // method overridden
-    public Bx func(int a) throws NullPointerException{
+    public Bx func(int a) throws IOException , NullPointerException{
 
         System.out.println("---func Bx");
 
@@ -69,20 +76,22 @@ class Bx extends Ax {
 
 public class OverlaodOverride{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Ax ax = new Bx();
         Bx bx = new Bx();
         
-        ax.o1();
+        //ax.o1();
         
-        ax.func(null);
+        //ax.func(null);
         //ax.func(1);
 
-        ax.meth((byte) 1); // "meth Ax int"
+        //ax.meth((byte) 1); // "meth Ax int"
 
-        bx.func(1);
+        //bx.func(1);
         //ax.func(1); // func Bx
+        
+        bx.func(new Bx());
         
         Double a = 1.0/0.0;
         System.out.println(a);

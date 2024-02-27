@@ -34,11 +34,10 @@ class Ax implements MyInterface{
  
  public class OverlaodOverride1{
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         
         Ax ax = new Bx();
-       
-        //ax.func(1);
+        ax.func(1);
         
         Bx bx = new Bx();
         //bx.func(2);
