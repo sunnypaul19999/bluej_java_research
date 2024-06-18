@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Varargs
+comment1.params=
+comment1.target=A()
+comment2.params=a\ b
+comment2.target=void\ f(int,\ int[])
+comment3.params=a\ b
+comment3.target=void\ f(int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

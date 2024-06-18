@@ -2,8 +2,8 @@ class FinallyReturn{
     
     public static short checkIfFinallyReturnOverrides() {
         try{
-            
-            return 1;
+            throw new RuntimeException("lakj");
+            //return 1;
         }catch(Exception e){
             
             return 2;
@@ -14,7 +14,6 @@ class FinallyReturn{
     }
     
     public static void main(String[] args) {
-        
         System.out.println(checkIfFinallyReturnOverrides());
     }
 }

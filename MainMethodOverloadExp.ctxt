@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MainMethodOverloadExp
+comment1.params=a
+comment1.target=void\ func(java.lang.Integer)
+comment2.params=a
+comment2.target=void\ func(java.lang.Object)
+comment3.params=
+comment3.target=void\ main()
+numComments=4

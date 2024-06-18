@@ -8,7 +8,7 @@ class Ax {
 }
 
 class Bx extends Ax {
-    public int f1() throws RuntimeException{
+    public int f1() throws ArithmeticException,RuntimeException{
         return 0;
     }
 }
